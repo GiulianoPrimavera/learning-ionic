@@ -1,4 +1,4 @@
-ion-menu ion-content {
+à-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
 
@@ -70,7 +70,7 @@ ion-menu.ios ion-content {
 }
 
 ion-menu.ios ion-list {
-  padding: 20px 0 0 0;
+  padding: 10px 0 10px 0;
 }
 
 ion-menu.ios ion-note {
@@ -116,4 +116,16 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+}
+
+ion-button.actionListButton {
+  margin: auto;
+}
+
+#labels-list {
+  display: flex;
+}
+
+.la-mia-classe-custom-per-i-bottoni {
+  background-color: red;
 }
